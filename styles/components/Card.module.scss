@@ -9,7 +9,7 @@
   position: relative;
   width: 100%;
   max-width: var(--card-width);
-
+  transition: all 300ms ease-in;
   &Advice {
     color: var(--primary);
     font-size: var(--font-size-sm);
@@ -31,11 +31,11 @@
 .btnFetch {
   background-color: var(--primary);
   border-radius: var(--border-radius-circle);
-  width: 48px;
-  height: 48px;
+  width: 54px;
+  height: 54px;
   padding: 0.75rem;
   position: absolute;
-  bottom: -23px;
+  bottom: -26px;
   left: 50%;
   transform: translateX(-50%);
   transition: box-shadow 300ms ease;
